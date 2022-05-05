@@ -38,19 +38,26 @@ Open source [mtproto](https://core.telegram.org/mtproto) server written in golan
 git clone https://github.com/teamgram/teamgram-server.git
 cd teamgram-server
 ```
-
+- grant permissions to access without password
+```
+1. get mysql config file
+    sudo docker cp teamgram-server_mysql_1:/etc/mysql/mysql.cnf .
+2. add
+    [mysqld]
+    skip-grant-tables
+3. save changes
+    sudo docker cp mysql.cnf teamgram-server_mysql_1:/etc/mysql
+4. restart mysql
+    sudo docker exec -it teamgram-server_mysql_1 bash
+    /etc/init.d/mysql restart
+```  
 - init database
 ```
 1. create database teamgram
 2. init teamgram database
-   mysql -uroot teamgram < teamgramd/sql/teamgram2.sql
-   mysql -uroot teamgram < teamgramd/sql/migrate-20220321.sql
-   mysql -uroot teamgram < teamgramd/sql/migrate-20220326.sql
-   mysql -uroot teamgram < teamgramd/sql/migrate-20220328.sql
-   mysql -uroot teamgram < teamgramd/sql/migrate-20220401.sql
-   mysql -uroot teamgram < teamgramd/sql/migrate-20220412.sql
-   mysql -uroot teamgram < teamgramd/sql/migrate-20220419.sql
-   mysql -uroot teamgram < teamgramd/sql/migrate-20220423.sql
+   mysql -h127.0.0.1 -P3306 -uroot teamgram < teamgramd/sql/teamgram2.sql
+   mysql -h127.0.0.1 -P3306 -uroot teamgram < teamgramd/sql/migrate-20220321.sql
+  ...  
 ```
 
 - init minio buckets, bucket names:
@@ -64,10 +71,15 @@ cd teamgram-server
 cd scripts
 ./build.sh
 ```
-
+- Create log dirs
+```
+cd ./teamgramd/logs
+mkdir authsession bff biz dfs gateway idgen media msg session status sync
+```
+    
 - Run
 ```
-cd ../teamgramd/bin
+cd ./teamgramd/bin
 ./runall2.sh
 ```
 
