@@ -84,7 +84,7 @@ func (c *AuthorizationCore) AuthSignUp(in *mtproto.TLAuthSignUp) (*mtproto.Auth_
 		err = mtproto.ErrPhoneNumberInvalid
 		return nil, err
 	}
-	phoneNumber := pNumber.GetNormalizeDigits()
+	phoneNumber := pNumber.Number
 
 	if in.PhoneCodeHash == "" {
 		c.Logger.Errorf("check phone_code_hash error - empty")
@@ -163,7 +163,7 @@ func (c *AuthorizationCore) AuthSignUp(in *mtproto.TLAuthSignUp) (*mtproto.Auth_
 	if user, err = c.svcCtx.UserClient.UserCreateNewUser(c.ctx, &userpb.TLUserCreateNewUser{
 		SecretKeyId: key.AuthKeyId(),
 		Phone:       phoneNumber,
-		CountryCode: pNumber.GetRegionCode(),
+		CountryCode: "",
 		FirstName:   firstName,
 		LastName:    lastName,
 	}); err != nil {

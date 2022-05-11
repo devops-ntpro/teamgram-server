@@ -19,10 +19,6 @@
 package core
 
 import (
-	"regexp"
-)
-
-import (
 	"github.com/teamgram/proto/mtproto"
 	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
 )
@@ -45,10 +41,6 @@ func (c *ContactsCore) ContactsImportContacts(in *mtproto.TLContactsImportContac
 			c.Logger.Errorf("contacts.importContacts - empty names error: %v", err)
 			return nil, err
 		}
-	}
-	for _, c := range in.Contacts {
-		reg, _ := regexp.Compile("[^0-9]+")
-		c.Phone = reg.ReplaceAllString(c.Phone, "")
 	}
 	contacts, err := c.svcCtx.Dao.UserClient.UserImportContacts(
 		c.ctx, &userpb.TLUserImportContacts{

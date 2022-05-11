@@ -20,16 +20,15 @@ package core
 
 import (
 	"context"
-	"fmt"
-	"math/rand"
-	"strings"
-	"time"
+	//"fmt"
+	//"math/rand"
+	//"time"
 
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/rpc/metadata"
 	"github.com/teamgram/teamgram-server/app/bff/authorization/internal/svc"
-	msgpb "github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
-	"github.com/teamgram/teamgram-server/pkg/env2"
+	//msgpb "github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
+	//"github.com/teamgram/teamgram-server/pkg/env2"
 	"github.com/teamgram/teamgram-server/pkg/phonenumber"
 
 	"github.com/zeromicro/go-zero/core/logx"
@@ -59,15 +58,7 @@ func checkPhoneNumberInvalid(phone string) (string, error) {
 		return "", mtproto.ErrPhoneNumberInvalid
 	}
 
-	phone = strings.ReplaceAll(phone, " ", "")
-	if phone == "+42400" ||
-		phone == "+42777" {
-		return phone[1:], nil
-	}
-
 	// 3.2. check phone_number
-	// 客户端发送的手机号格式为: "+86 111 1111 1111"，归一化
-	// We need getRegionCode from phone_number
 	pNumber, err := phonenumber.MakePhoneNumberHelper(phone, "")
 	if err != nil {
 		// log.Errorf("check phone_number error - %v", err)
@@ -75,7 +66,7 @@ func checkPhoneNumberInvalid(phone string) (string, error) {
 		return "", mtproto.ErrPhoneNumberInvalid
 	}
 
-	return pNumber.GetNormalizeDigits(), nil
+	return pNumber.Number, nil
 }
 
 const signInMessageTpl = `Login code: %s. Do not give this code to anyone, even if they say they are from %s!
@@ -85,6 +76,7 @@ This code can be used to log in to your %s account. We never ask it for anything
 If you didn't request this code by trying to log in on another device, simply ignore this message.`
 
 func (c *AuthorizationCore) pushSignInMessage(ctx context.Context, signInUserId int64, code string) {
+	/*
 	time.AfterFunc(2*time.Second, func() {
 		message := mtproto.MakeTLMessage(&mtproto.Message{
 			Out:     true,
@@ -121,5 +113,5 @@ func (c *AuthorizationCore) pushSignInMessage(ctx context.Context, signInUserId 
 					ScheduleDate: nil,
 				}).To_OutboxMessage(),
 			})
-	})
+	})*/
 }

@@ -27,7 +27,6 @@ import (
 	"github.com/teamgram/teamgram-server/app/service/authsession/authsession"
 	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
 	"github.com/teamgram/teamgram-server/pkg/env2"
-	"github.com/teamgram/teamgram-server/pkg/phonenumber"
 )
 
 /*
@@ -175,15 +174,12 @@ func (c *AuthorizationCore) AuthSignIn(in *mtproto.TLAuthSignIn) (*mtproto.Auth_
 			}
 
 			// 3.2. check phone_number
-			// 客户端发送的手机号格式为: "+86 111 1111 1111"，归一化
-			// We need getRegionCode from phone_number
-			pNumber, _ := phonenumber.MakePhoneNumberHelper(phoneNumber, "")
-
+			// Используем доменное имя. Ничего не проверяем
 			// TODO: check
 			_, err = c.svcCtx.UserClient.UserCreateNewUser(c.ctx, &userpb.TLUserCreateNewUser{
 				SecretKeyId: key.AuthKeyId(),
 				Phone:       phoneNumber,
-				CountryCode: pNumber.GetRegionCode(),
+				CountryCode: "",
 				FirstName:   predefinedUser.GetFirstName().GetValue(),
 				LastName:    predefinedUser.GetLastName().GetValue(),
 			})
