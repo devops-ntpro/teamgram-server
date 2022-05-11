@@ -18,10 +18,10 @@ import (
 
 type contactItem struct {
 	c               *mtproto.InputContact
-	unregistered    bool  // 未注册
-	userId          int64 // 已经注册的用户ID
-	contactId       int64 // 已经注册是我的联系人
-	importContactId int64 // 已经注册的反向联系人
+	unregistered    bool  // не зарегистрирован
+	userId          int64 // ID зарегистрированного пользователя
+	contactId       int64 // уже зарегистрированный в качестве моего контакта
+	importContactId int64 // обратный контакт (0 или userId). Тот, кто добавил меня в качестве контакта
 }
 
 // UserImportContacts
@@ -36,23 +36,25 @@ func (c *UserCore) UserImportContacts(in *user.TLUserImportContacts) (*user.User
 	)
 
 	importContacts := make(map[string]*contactItem)
-	// 1. 整理
+	// 1. Заполняем importContacts всеми импортированными контактами
 	phoneList := make([]string, 0, len(contacts))
 	for _, c2 := range contacts {
 		phoneList = append(phoneList, c2.Phone)
 		importContacts[c2.Phone] = &contactItem{unregistered: true, c: c2}
 	}
 
-	// 2. 已注册
+	// 2. Ищем среди импортированных контактов те, которые зарегистрированны.
 	registeredContacts, _ := c.svcCtx.Dao.UsersDAO.SelectUsersByPhoneList(c.ctx, phoneList)
 	var contactIdList []int64
 
+	// Непонятно, почему закомментированно
 	// clear phoneList
 	// phoneList = phoneList[0:0]
 	for i := 0; i < len(registeredContacts); i++ {
 		if c2, ok := importContacts[registeredContacts[i].Phone]; ok {
 			c2.unregistered = false
 			c2.userId = registeredContacts[i].Id
+			// Зачем добавлять телефон в список, если он итак должен быть там?
 			phoneList = append(phoneList, registeredContacts[i].Phone)
 			contactIdList = append(contactIdList, registeredContacts[i].Id)
 		} else {
@@ -61,7 +63,8 @@ func (c *UserCore) UserImportContacts(in *user.TLUserImportContacts) (*user.User
 	}
 
 	if len(contactIdList) > 0 {
-		// 3. 我的联系人
+		// 3. Ищем среди импортированных и зарегистрированных контактов те,
+		// которые уже являются моими контактами
 		myContacts, _ := c.svcCtx.Dao.UserContactsDAO.SelectListByIdList(c.ctx, in.UserId, contactIdList)
 		c.Logger.Infof("myContacts - %v", myContacts)
 		for i := 0; i < len(myContacts); i++ {
@@ -72,7 +75,7 @@ func (c *UserCore) UserImportContacts(in *user.TLUserImportContacts) (*user.User
 	}
 
 	if len(contactIdList) > 0 {
-		// 4. 反向联系人
+		// 4. Определяем, есть ли я в контактах у того, кого я добавляю
 		importedMyContacts, _ := c.svcCtx.Dao.ImportedContactsDAO.SelectListByImportedList(c.ctx, in.UserId, contactIdList)
 		c.Logger.Infof("importedMyContacts - %v", importedMyContacts)
 		for i := 0; i < len(importedMyContacts); i++ {
@@ -90,7 +93,8 @@ func (c *UserCore) UserImportContacts(in *user.TLUserImportContacts) (*user.User
 	for _, c2 := range importContacts {
 		if c2.unregistered {
 			go func() {
-				// 1. 未注册 - popular inviter
+				// 1. Сохраняем куда-то приглашения незарегистрированных контактов
+				// Что мы потом с ними будем делать?
 				unregisteredContactsDO := &dataobject.UnregisteredContactsDO{
 					Phone:           c2.c.Phone,
 					ImporterUserId:  in.UserId,
@@ -100,6 +104,7 @@ func (c *UserCore) UserImportContacts(in *user.TLUserImportContacts) (*user.User
 				c.svcCtx.Dao.UnregisteredContactsDAO.InsertOrUpdate(c.ctx, unregisteredContactsDO)
 			}()
 
+			// Какая-то логика расчета популярных контактов. Очевидно, недоделанная
 			//popularContactsDO := &dataobject.PopularContactsDO{
 			//	Phone:     c2.c.Phone,
 			//	Importers: 1,
@@ -113,7 +118,7 @@ func (c *UserCore) UserImportContacts(in *user.TLUserImportContacts) (*user.User
 			popularContactMap[c2.c.Phone] = popularContact
 			// &popularContactData{c2.c.Phone, c2.c.ClientId})
 		} else {
-			// 已经注册
+			// Добавляем в контакты зарегистрированного пользователя
 			userContactsDO := &dataobject.UserContactsDO{
 				OwnerUserId:      in.UserId,
 				ContactUserId:    c2.userId,
@@ -128,17 +133,20 @@ func (c *UserCore) UserImportContacts(in *user.TLUserImportContacts) (*user.User
 					updList = append(updList, c2.importContactId)
 				}
 
-				// 联系人已经存在，刷新first_name, last_name
-				c.svcCtx.Dao.UserContactsDAO.UpdateContactName(c.ctx, userContactsDO.ContactFirstName,
+				// Если контакт уже существует, то обновляем для него
+				// first_name, last_name
+				c.svcCtx.Dao.UserContactsDAO.UpdateContactName(
+					c.ctx,
+					userContactsDO.ContactFirstName,
 					userContactsDO.ContactLastName,
 					userContactsDO.OwnerUserId,
 					userContactsDO.ContactUserId)
 			} else {
 				userContactsDO.IsDeleted = false
 				if c2.importContactId > 0 {
+					// Существующий контакт стал взаимным. Обновляем его
 					userContactsDO.Mutual = true
 
-					// need update to contact
 					updList = append(updList, c2.importContactId)
 
 					c.svcCtx.Dao.UserContactsDAO.UpdateMutual(c.ctx, true, userContactsDO.ContactUserId, userContactsDO.OwnerUserId)
@@ -164,7 +172,7 @@ func (c *UserCore) UserImportContacts(in *user.TLUserImportContacts) (*user.User
 		}
 	}
 
-	//
+	// Продолжение недоделанной логики про популярные контакты
 	popularContacts := make([]*mtproto.PopularContact, 0, len(phoneList))
 	if len(phoneList) > 0 {
 		popularDOList, _ := c.svcCtx.Dao.PopularContactsDAO.SelectImportersList(c.ctx, phoneList)

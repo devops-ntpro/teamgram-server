@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-PWD=`pwd`
+PWD=`dirname "$0"`
 TEAMGRAMAPP=${PWD}"/../app"
 INSTALL=${PWD}"/../teamgramd"
 

@@ -19,19 +19,53 @@
 package core
 
 import (
+	"regexp"
+)
+
+import (
 	"github.com/teamgram/proto/mtproto"
+	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
 )
 
 // ContactsImportContacts
 // contacts.importContacts#2c800be5 contacts:Vector<InputContact> = contacts.ImportedContacts;
 func (c *ContactsCore) ContactsImportContacts(in *mtproto.TLContactsImportContacts) (*mtproto.Contacts_ImportedContacts, error) {
-	// TODO: not impl
-	c.Logger.Errorf("contacts.importContacts blocked, License key from https://teamgram.net required to unlock enterprise features.")
+	c.Logger.Infof("contacts.importContacts: %#v", in)
+
+	l := len(in.Contacts)
+	if l > 1 {
+		// Будет обработан только один запрос
+		c.Logger.Errorf("contacts.ImportContacts - warning: len is %d", l)
+	}
+		
+	for _, inContact := range in.Contacts {
+		// 400	CONTACT_NAME_EMPTY	Contact name empty.
+		if inContact.FirstName == "" && inContact.LastName == "" {
+			err := mtproto.ErrContactNameEmpty
+			c.Logger.Errorf("contacts.importContacts - empty names error: %v", err)
+			return nil, err
+		}
+	}
+	for _, c := range in.Contacts {
+		reg, _ := regexp.Compile("[^0-9]+")
+		c.Phone = reg.ReplaceAllString(c.Phone, "")
+	}
+	contacts, err := c.svcCtx.Dao.UserClient.UserImportContacts(
+		c.ctx, &userpb.TLUserImportContacts{
+			UserId: c.MD.UserId,
+			Contacts: in.Contacts})
+	
+	if err != nil {
+		c.Logger.Errorf("contacts.importContacts - error: %v", err)
+		return nil, err
+	}
 
 	return mtproto.MakeTLContactsImportedContacts(&mtproto.Contacts_ImportedContacts{
-		Imported:       []*mtproto.ImportedContact{},
-		PopularInvites: []*mtproto.PopularContact{},
-		RetryContacts:  []int64{},
-		Users:          []*mtproto.User{},
+		Imported:       contacts.Imported,
+		PopularInvites: contacts.PopularInvites,
+		RetryContacts:  contacts.RetryContacts,
+		Users:          contacts.Users,
 	}).To_Contacts_ImportedContacts(), nil
 }
+
+
