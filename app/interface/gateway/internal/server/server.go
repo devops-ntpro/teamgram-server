@@ -24,12 +24,12 @@ import (
 	"github.com/teamgram/marmota/pkg/net2"
 	"github.com/teamgram/marmota/pkg/timer2"
 	"github.com/teamgram/proto/mtproto"
-	sessionpb "github.com/teamgram/teamgram-server/app/interface/session/session"
+	sessionpb "github.com/devops-ntpro/teamgram-server/app/interface/session/session"
 	"github.com/zeromicro/go-zero/core/logx"
 	"strconv"
 
 	"github.com/teamgram/marmota/pkg/cache"
-	"github.com/teamgram/teamgram-server/app/interface/gateway/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/interface/gateway/internal/config"
 )
 
 var (

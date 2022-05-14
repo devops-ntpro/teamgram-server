@@ -21,8 +21,8 @@ package core
 import (
 	"github.com/gogo/protobuf/types"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/sync"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/sync"
+	userpb "github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
 )
 
 // AccountResetNotifySettings

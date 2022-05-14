@@ -10,7 +10,7 @@
 package core
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/biz/updates/updates"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/updates/updates"
 )
 
 // UpdatesGetChannelDifferenceV2

@@ -20,9 +20,9 @@ package core
 
 import (
 	"github.com/teamgram/proto/mtproto"
-	chatpb "github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
-	messagepb "github.com/teamgram/teamgram-server/app/service/biz/message/message"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	chatpb "github.com/devops-ntpro/teamgram-server/app/service/biz/chat/chat"
+	messagepb "github.com/devops-ntpro/teamgram-server/app/service/biz/message/message"
+	userpb "github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
 )
 
 // MessagesGetUnreadMentions

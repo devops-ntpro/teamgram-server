@@ -10,8 +10,8 @@
 package core
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/biz/message/internal/dal/dataobject"
-	"github.com/teamgram/teamgram-server/app/service/biz/message/message"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/message/internal/dal/dataobject"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/message/message"
 )
 
 // MessageGetPeerChatMessageIdList

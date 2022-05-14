@@ -14,8 +14,8 @@ import (
 	"context"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/status/internal/core"
-	"github.com/teamgram/teamgram-server/app/service/status/status"
+	"github.com/devops-ntpro/teamgram-server/app/service/status/internal/core"
+	"github.com/devops-ntpro/teamgram-server/app/service/status/status"
 )
 
 // StatusSetSessionOnline

@@ -23,10 +23,10 @@ import (
 	"time"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/bff/authorization/internal/dao"
-	"github.com/teamgram/teamgram-server/app/bff/authorization/internal/model"
-	"github.com/teamgram/teamgram-server/pkg/code"
-	"github.com/teamgram/teamgram-server/pkg/code/conf"
+	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/internal/dao"
+	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/internal/model"
+	"github.com/devops-ntpro/teamgram-server/pkg/code"
+	"github.com/devops-ntpro/teamgram-server/pkg/code/conf"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

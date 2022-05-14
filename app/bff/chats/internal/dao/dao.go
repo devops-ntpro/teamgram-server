@@ -21,16 +21,16 @@ package dao
 import (
 	kafka "github.com/teamgram/marmota/pkg/mq"
 	"github.com/teamgram/marmota/pkg/net/rpcx"
-	"github.com/teamgram/teamgram-server/app/bff/chats/internal/config"
-	msg_client "github.com/teamgram/teamgram-server/app/messenger/msg/msg/client"
-	sync_client "github.com/teamgram/teamgram-server/app/messenger/sync/client"
-	authsession_client "github.com/teamgram/teamgram-server/app/service/authsession/client"
-	chat_client "github.com/teamgram/teamgram-server/app/service/biz/chat/client"
-	dialog_client "github.com/teamgram/teamgram-server/app/service/biz/dialog/client"
-	message_client "github.com/teamgram/teamgram-server/app/service/biz/message/client"
-	user_client "github.com/teamgram/teamgram-server/app/service/biz/user/client"
-	idgen_client "github.com/teamgram/teamgram-server/app/service/idgen/client"
-	media_client "github.com/teamgram/teamgram-server/app/service/media/client"
+	"github.com/devops-ntpro/teamgram-server/app/bff/chats/internal/config"
+	msg_client "github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/client"
+	sync_client "github.com/devops-ntpro/teamgram-server/app/messenger/sync/client"
+	authsession_client "github.com/devops-ntpro/teamgram-server/app/service/authsession/client"
+	chat_client "github.com/devops-ntpro/teamgram-server/app/service/biz/chat/client"
+	dialog_client "github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/client"
+	message_client "github.com/devops-ntpro/teamgram-server/app/service/biz/message/client"
+	user_client "github.com/devops-ntpro/teamgram-server/app/service/biz/user/client"
+	idgen_client "github.com/devops-ntpro/teamgram-server/app/service/idgen/client"
+	media_client "github.com/devops-ntpro/teamgram-server/app/service/media/client"
 )
 
 type Dao struct {

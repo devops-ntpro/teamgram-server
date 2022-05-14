@@ -14,7 +14,7 @@ import (
 	"context"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/bff/chatinvites/internal/core"
+	"github.com/devops-ntpro/teamgram-server/app/bff/chatinvites/internal/core"
 )
 
 // MessagesExportChatInvite

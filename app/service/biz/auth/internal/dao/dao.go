@@ -9,7 +9,7 @@
 
 package dao
 
-import "github.com/teamgram/teamgram-server/app/service/biz/auth/internal/config"
+import "github.com/devops-ntpro/teamgram-server/app/service/biz/auth/internal/config"
 
 type Dao struct {
 }

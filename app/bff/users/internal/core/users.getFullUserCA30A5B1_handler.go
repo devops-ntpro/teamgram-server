@@ -21,8 +21,8 @@ package core
 import (
 	"github.com/teamgram/marmota/pkg/utils"
 	"github.com/teamgram/proto/mtproto"
-	chatpb "github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	chatpb "github.com/devops-ntpro/teamgram-server/app/service/biz/chat/chat"
+	userpb "github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
 )
 
 // UsersGetFullUserCA30A5B1

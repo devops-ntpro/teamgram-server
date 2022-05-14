@@ -10,7 +10,7 @@
 package svc
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/status/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/service/status/internal/config"
 	"github.com/zeromicro/go-zero/core/stores/kv"
 )
 

@@ -13,10 +13,10 @@ import (
 	"github.com/teamgram/marmota/pkg/cache"
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/rpc/metadata"
-	bff_proxy_client "github.com/teamgram/teamgram-server/app/bff/bff/client"
-	"github.com/teamgram/teamgram-server/app/interface/session/internal/config"
-	authsession_client "github.com/teamgram/teamgram-server/app/service/authsession/client"
-	status_client "github.com/teamgram/teamgram-server/app/service/status/client"
+	bff_proxy_client "github.com/devops-ntpro/teamgram-server/app/bff/bff/client"
+	"github.com/devops-ntpro/teamgram-server/app/interface/session/internal/config"
+	authsession_client "github.com/devops-ntpro/teamgram-server/app/service/authsession/client"
+	status_client "github.com/devops-ntpro/teamgram-server/app/service/status/client"
 
 	"github.com/zeromicro/go-zero/zrpc"
 )

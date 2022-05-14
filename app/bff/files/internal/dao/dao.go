@@ -20,10 +20,10 @@ package dao
 
 import (
 	"github.com/teamgram/marmota/pkg/net/rpcx"
-	"github.com/teamgram/teamgram-server/app/bff/files/internal/config"
-	user_client "github.com/teamgram/teamgram-server/app/service/biz/user/client"
-	dfs_client "github.com/teamgram/teamgram-server/app/service/dfs/client"
-	media_client "github.com/teamgram/teamgram-server/app/service/media/client"
+	"github.com/devops-ntpro/teamgram-server/app/bff/files/internal/config"
+	user_client "github.com/devops-ntpro/teamgram-server/app/service/biz/user/client"
+	dfs_client "github.com/devops-ntpro/teamgram-server/app/service/dfs/client"
+	media_client "github.com/devops-ntpro/teamgram-server/app/service/media/client"
 )
 
 type Dao struct {

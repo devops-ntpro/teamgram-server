@@ -11,10 +11,10 @@
 package dialogs_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/bff/dialogs/internal/config"
-	"github.com/teamgram/teamgram-server/app/bff/dialogs/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/bff/dialogs/internal/svc"
-	"github.com/teamgram/teamgram-server/app/bff/dialogs/plugin"
+	"github.com/devops-ntpro/teamgram-server/app/bff/dialogs/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/bff/dialogs/internal/server/grpc/service"
+	"github.com/devops-ntpro/teamgram-server/app/bff/dialogs/internal/svc"
+	"github.com/devops-ntpro/teamgram-server/app/bff/dialogs/plugin"
 )
 
 type (

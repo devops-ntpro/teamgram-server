@@ -10,7 +10,7 @@
 package core
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
 )
 
 // UserGetLastSeens

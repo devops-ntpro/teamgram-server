@@ -12,7 +12,7 @@ package core
 import (
 	"github.com/gogo/protobuf/types"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/dialog"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/dialog"
 )
 
 // DialogUpdateReadOutbox

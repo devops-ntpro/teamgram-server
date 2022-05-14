@@ -32,8 +32,8 @@ import (
 	"github.com/teamgram/marmota/pkg/net2"
 	"github.com/teamgram/marmota/pkg/timer2"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/interface/gateway/internal/server/codec"
-	sessionpb "github.com/teamgram/teamgram-server/app/interface/session/session"
+	"github.com/devops-ntpro/teamgram-server/app/interface/gateway/internal/server/codec"
+	sessionpb "github.com/devops-ntpro/teamgram-server/app/interface/session/session"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

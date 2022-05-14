@@ -22,7 +22,7 @@ import (
 	"github.com/teamgram/marmota/pkg/strings2"
 	"github.com/teamgram/marmota/pkg/utils"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/username/username"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/username/username"
 )
 
 // AccountCheckUsername

@@ -20,10 +20,10 @@ package core
 
 import (
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/sync"
-	chatpb "github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/dialog"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/sync"
+	chatpb "github.com/devops-ntpro/teamgram-server/app/service/biz/chat/chat"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/dialog"
+	userpb "github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
 )
 
 // MessagesToggleDialogPin

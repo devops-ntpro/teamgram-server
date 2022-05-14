@@ -14,8 +14,8 @@ import (
 	"context"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/auth/auth"
-	"github.com/teamgram/teamgram-server/app/service/biz/auth/internal/core"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/auth/auth"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/auth/internal/core"
 )
 
 // AuthExportLoginToken

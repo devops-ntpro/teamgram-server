@@ -11,9 +11,9 @@
 package miscellaneous_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/bff/miscellaneous/internal/config"
-	"github.com/teamgram/teamgram-server/app/bff/miscellaneous/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/bff/miscellaneous/internal/svc"
+	"github.com/devops-ntpro/teamgram-server/app/bff/miscellaneous/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/bff/miscellaneous/internal/server/grpc/service"
+	"github.com/devops-ntpro/teamgram-server/app/bff/miscellaneous/internal/svc"
 )
 
 type (

@@ -21,13 +21,13 @@ package dao
 import (
 	kafka "github.com/teamgram/marmota/pkg/mq"
 	"github.com/teamgram/marmota/pkg/net/rpcx"
-	"github.com/teamgram/teamgram-server/app/bff/dialogs/internal/config"
-	sync_client "github.com/teamgram/teamgram-server/app/messenger/sync/client"
-	chat_client "github.com/teamgram/teamgram-server/app/service/biz/chat/client"
-	dialog_client "github.com/teamgram/teamgram-server/app/service/biz/dialog/client"
-	message_client "github.com/teamgram/teamgram-server/app/service/biz/message/client"
-	updates_client "github.com/teamgram/teamgram-server/app/service/biz/updates/client"
-	user_client "github.com/teamgram/teamgram-server/app/service/biz/user/client"
+	"github.com/devops-ntpro/teamgram-server/app/bff/dialogs/internal/config"
+	sync_client "github.com/devops-ntpro/teamgram-server/app/messenger/sync/client"
+	chat_client "github.com/devops-ntpro/teamgram-server/app/service/biz/chat/client"
+	dialog_client "github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/client"
+	message_client "github.com/devops-ntpro/teamgram-server/app/service/biz/message/client"
+	updates_client "github.com/devops-ntpro/teamgram-server/app/service/biz/updates/client"
+	user_client "github.com/devops-ntpro/teamgram-server/app/service/biz/user/client"
 )
 
 type Dao struct {

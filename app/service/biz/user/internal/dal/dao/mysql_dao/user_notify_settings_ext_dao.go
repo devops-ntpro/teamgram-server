@@ -17,7 +17,7 @@ import (
 	"strings"
 
 	"github.com/teamgram/marmota/pkg/stores/sqlx"
-	"github.com/teamgram/teamgram-server/app/service/biz/user/internal/dal/dataobject"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/user/internal/dal/dataobject"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

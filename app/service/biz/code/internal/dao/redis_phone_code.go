@@ -24,7 +24,7 @@ import (
 	"fmt"
 
 	"github.com/teamgram/marmota/pkg/hack"
-	"github.com/teamgram/teamgram-server/app/service/biz/code/code"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/code/code"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

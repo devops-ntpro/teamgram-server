@@ -22,9 +22,9 @@ import (
 	"github.com/teamgram/marmota/pkg/strings2"
 	"github.com/teamgram/marmota/pkg/utils"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/sync"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
-	"github.com/teamgram/teamgram-server/app/service/biz/username/username"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/sync"
+	userpb "github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/username/username"
 )
 
 // AccountUpdateUsername

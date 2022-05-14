@@ -11,9 +11,9 @@
 package updates_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/biz/updates/internal/config"
-	"github.com/teamgram/teamgram-server/app/service/biz/updates/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/service/biz/updates/internal/svc"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/updates/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/updates/internal/server/grpc/service"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/updates/internal/svc"
 )
 
 type (

@@ -30,8 +30,8 @@ import (
 	"github.com/zeromicro/go-zero/core/logx"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/authsession/authsession"
-	"github.com/teamgram/teamgram-server/app/service/authsession/internal/dal/dataobject"
+	"github.com/devops-ntpro/teamgram-server/app/service/authsession/authsession"
+	"github.com/devops-ntpro/teamgram-server/app/service/authsession/internal/dal/dataobject"
 )
 
 func (d *Dao) QueryAuthKey(ctx context.Context, authKeyId int64) (*mtproto.AuthKeyInfo, error) {

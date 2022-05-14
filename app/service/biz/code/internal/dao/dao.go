@@ -10,7 +10,7 @@
 package dao
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/biz/code/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/code/internal/config"
 
 	"github.com/zeromicro/go-zero/core/stores/kv"
 )

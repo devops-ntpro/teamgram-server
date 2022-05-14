@@ -19,7 +19,7 @@
 package main
 
 import (
-	"github.com/teamgram/teamgram-server/app/interface/gateway/internal/server/server"
+	"github.com/devops-ntpro/teamgram-server/app/interface/gateway/internal/server/server"
 
 	"github.com/teamgram/marmota/pkg/commands"
 )

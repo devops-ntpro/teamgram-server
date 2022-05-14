@@ -14,8 +14,8 @@ import (
 	"context"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/idgen/idgen"
-	"github.com/teamgram/teamgram-server/app/service/idgen/internal/core"
+	"github.com/devops-ntpro/teamgram-server/app/service/idgen/idgen"
+	"github.com/devops-ntpro/teamgram-server/app/service/idgen/internal/core"
 )
 
 // IdgenNextId

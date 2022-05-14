@@ -11,7 +11,7 @@
 package status_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/status/internal/server"
+	"github.com/devops-ntpro/teamgram-server/app/service/status/internal/server"
 )
 
 var (

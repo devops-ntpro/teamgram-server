@@ -22,7 +22,7 @@ import (
 	"context"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/dialog"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/dialog"
 )
 
 type DialogsPlugin interface {

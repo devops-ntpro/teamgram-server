@@ -12,7 +12,7 @@ package core
 import (
 	"fmt"
 
-	"github.com/teamgram/teamgram-server/app/service/idgen/idgen"
+	"github.com/devops-ntpro/teamgram-server/app/service/idgen/idgen"
 )
 
 const (

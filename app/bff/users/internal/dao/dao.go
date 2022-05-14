@@ -20,9 +20,9 @@ package dao
 
 import (
 	"github.com/teamgram/marmota/pkg/net/rpcx"
-	"github.com/teamgram/teamgram-server/app/bff/users/internal/config"
-	chat_client "github.com/teamgram/teamgram-server/app/service/biz/chat/client"
-	user_client "github.com/teamgram/teamgram-server/app/service/biz/user/client"
+	"github.com/devops-ntpro/teamgram-server/app/bff/users/internal/config"
+	chat_client "github.com/devops-ntpro/teamgram-server/app/service/biz/chat/client"
+	user_client "github.com/devops-ntpro/teamgram-server/app/service/biz/user/client"
 )
 
 type Dao struct {

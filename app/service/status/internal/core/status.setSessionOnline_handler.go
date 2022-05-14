@@ -13,7 +13,7 @@ import (
 	"strconv"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/status/status"
+	"github.com/devops-ntpro/teamgram-server/app/service/status/status"
 )
 
 // StatusSetSessionOnline

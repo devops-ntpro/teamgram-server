@@ -14,8 +14,8 @@ import (
 	"context"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/code/code"
-	"github.com/teamgram/teamgram-server/app/service/biz/code/internal/core"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/code/code"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/code/internal/core"
 )
 
 // CodeCreatePhoneCode

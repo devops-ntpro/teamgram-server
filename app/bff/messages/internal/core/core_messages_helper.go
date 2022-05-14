@@ -8,19 +8,19 @@ package core
 
 import (
 	"github.com/teamgram/proto/mtproto/rpc/metadata"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/sync"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/dialog"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/sync"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/dialog"
 	"math/rand"
 	"mvdan.cc/xurls/v2"
 	"sort"
 	"time"
 
 	"github.com/teamgram/proto/mtproto"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
-	"github.com/teamgram/teamgram-server/app/service/biz/username/username"
-	mediapb "github.com/teamgram/teamgram-server/app/service/media/media"
-	"github.com/teamgram/teamgram-server/pkg/mention"
-	"github.com/teamgram/teamgram-server/pkg/phonenumber"
+	userpb "github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/username/username"
+	mediapb "github.com/devops-ntpro/teamgram-server/app/service/media/media"
+	"github.com/devops-ntpro/teamgram-server/pkg/mention"
+	"github.com/devops-ntpro/teamgram-server/pkg/phonenumber"
 )
 
 // draft

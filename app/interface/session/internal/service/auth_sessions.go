@@ -31,8 +31,8 @@ import (
 	"github.com/teamgram/marmota/pkg/sync2"
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/rpc/metadata"
-	"github.com/teamgram/teamgram-server/app/service/authsession/authsession"
-	"github.com/teamgram/teamgram-server/app/service/status/status"
+	"github.com/devops-ntpro/teamgram-server/app/service/authsession/authsession"
+	"github.com/devops-ntpro/teamgram-server/app/service/status/status"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

@@ -13,8 +13,8 @@ import (
 	"github.com/teamgram/marmota/pkg/net/rpcx"
 	"github.com/teamgram/marmota/pkg/stores/sqlc"
 	"github.com/teamgram/marmota/pkg/stores/sqlx"
-	"github.com/teamgram/teamgram-server/app/service/biz/user/internal/config"
-	media_client "github.com/teamgram/teamgram-server/app/service/media/client"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/user/internal/config"
+	media_client "github.com/devops-ntpro/teamgram-server/app/service/media/client"
 )
 
 // Dao dao.

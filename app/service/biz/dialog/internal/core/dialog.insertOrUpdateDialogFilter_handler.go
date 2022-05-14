@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/dialog"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/internal/dal/dataobject"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/dialog"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/internal/dal/dataobject"
 
 	"github.com/zeromicro/go-zero/core/jsonx"
 )

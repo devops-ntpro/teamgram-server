@@ -11,7 +11,7 @@
 package session_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/interface/session/internal/server"
+	"github.com/devops-ntpro/teamgram-server/app/interface/session/internal/server"
 )
 
 var (

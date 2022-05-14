@@ -13,7 +13,7 @@ import (
 	"fmt"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/authsession/authsession"
+	"github.com/devops-ntpro/teamgram-server/app/service/authsession/authsession"
 )
 
 // AuthsessionGetAuthorization

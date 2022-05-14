@@ -13,7 +13,7 @@ import (
 	"log"
 
 	"github.com/bwmarrin/snowflake"
-	"github.com/teamgram/teamgram-server/app/service/idgen/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/service/idgen/internal/config"
 	"github.com/zeromicro/go-zero/core/stores/kv"
 )
 

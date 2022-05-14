@@ -21,8 +21,8 @@ package core
 import (
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/crypto"
-	"github.com/teamgram/teamgram-server/app/bff/qrcode/internal/model"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	"github.com/devops-ntpro/teamgram-server/app/bff/qrcode/internal/model"
+	userpb "github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
 	"time"
 )
 

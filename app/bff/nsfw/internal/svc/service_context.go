@@ -19,8 +19,8 @@
 package svc
 
 import (
-	"github.com/teamgram/teamgram-server/app/bff/nsfw/internal/config"
-	"github.com/teamgram/teamgram-server/app/bff/nsfw/internal/dao"
+	"github.com/devops-ntpro/teamgram-server/app/bff/nsfw/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/bff/nsfw/internal/dao"
 )
 
 type ServiceContext struct {

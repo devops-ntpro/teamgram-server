@@ -20,9 +20,9 @@ package core
 
 import (
 	"github.com/teamgram/proto/mtproto"
-	chatpb "github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
-	"github.com/teamgram/teamgram-server/app/service/biz/dialog/dialog"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
+	chatpb "github.com/devops-ntpro/teamgram-server/app/service/biz/chat/chat"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/dialog"
+	userpb "github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
 )
 
 // MessagesGetAllDrafts

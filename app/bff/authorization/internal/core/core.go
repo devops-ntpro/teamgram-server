@@ -26,10 +26,10 @@ import (
 
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/rpc/metadata"
-	"github.com/teamgram/teamgram-server/app/bff/authorization/internal/svc"
-	//msgpb "github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
-	//"github.com/teamgram/teamgram-server/pkg/env2"
-	"github.com/teamgram/teamgram-server/pkg/phonenumber"
+	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/internal/svc"
+	//msgpb "github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/msg"
+	//"github.com/devops-ntpro/teamgram-server/pkg/env2"
+	"github.com/devops-ntpro/teamgram-server/pkg/phonenumber"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

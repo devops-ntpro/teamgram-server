@@ -11,9 +11,9 @@
 package users_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/bff/users/internal/config"
-	"github.com/teamgram/teamgram-server/app/bff/users/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/bff/users/internal/svc"
+	"github.com/devops-ntpro/teamgram-server/app/bff/users/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/bff/users/internal/server/grpc/service"
+	"github.com/devops-ntpro/teamgram-server/app/bff/users/internal/svc"
 )
 
 type (

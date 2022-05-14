@@ -10,8 +10,8 @@
 package grpc
 
 import (
-	"github.com/teamgram/teamgram-server/app/interface/session/internal/service"
-	"github.com/teamgram/teamgram-server/app/interface/session/session"
+	"github.com/devops-ntpro/teamgram-server/app/interface/session/internal/service"
+	"github.com/devops-ntpro/teamgram-server/app/interface/session/session"
 
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/zrpc"

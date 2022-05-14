@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/teamgram/teamgram-server/app/interface/gateway/internal/config"
-	"github.com/teamgram/teamgram-server/app/interface/session/client"
+	"github.com/devops-ntpro/teamgram-server/app/interface/gateway/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/interface/session/client"
 
 	"github.com/zeromicro/go-zero/core/discov"
 	"github.com/zeromicro/go-zero/core/hash"

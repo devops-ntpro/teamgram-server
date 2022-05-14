@@ -20,7 +20,7 @@ package main
 
 import (
 	"github.com/teamgram/marmota/pkg/commands"
-	"github.com/teamgram/teamgram-server/app/bff/bff/internal/server"
+	"github.com/devops-ntpro/teamgram-server/app/bff/bff/internal/server"
 )
 
 func main() {

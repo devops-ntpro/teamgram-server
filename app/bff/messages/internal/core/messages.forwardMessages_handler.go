@@ -22,11 +22,11 @@ import (
 	"context"
 	"github.com/gogo/protobuf/types"
 	"github.com/teamgram/proto/mtproto"
-	msgpb "github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
-	chatpb "github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
-	"github.com/teamgram/teamgram-server/app/service/biz/message/message"
-	userpb "github.com/teamgram/teamgram-server/app/service/biz/user/user"
-	"github.com/teamgram/teamgram-server/app/service/biz/username/username"
+	msgpb "github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/msg"
+	chatpb "github.com/devops-ntpro/teamgram-server/app/service/biz/chat/chat"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/message/message"
+	userpb "github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/username/username"
 	"time"
 )
 

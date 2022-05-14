@@ -19,7 +19,7 @@
 package svc
 
 import (
-	"github.com/teamgram/teamgram-server/app/interface/session/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/interface/session/internal/config"
 )
 
 type ServiceContext struct {

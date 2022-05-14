@@ -20,8 +20,8 @@ package core
 
 import (
 	"github.com/teamgram/proto/mtproto"
-	msgpb "github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
-	"github.com/teamgram/teamgram-server/app/service/biz/message/message"
+	msgpb "github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/msg"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/message/message"
 )
 
 // MessagesReadMessageContents

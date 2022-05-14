@@ -19,10 +19,10 @@
 package svc
 
 import (
-	"github.com/teamgram/teamgram-server/app/bff/authorization/internal/config"
-	"github.com/teamgram/teamgram-server/app/bff/authorization/internal/dao"
-	"github.com/teamgram/teamgram-server/app/bff/authorization/internal/logic"
-	"github.com/teamgram/teamgram-server/app/bff/authorization/plugin"
+	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/internal/dao"
+	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/internal/logic"
+	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/plugin"
 )
 
 type ServiceContext struct {

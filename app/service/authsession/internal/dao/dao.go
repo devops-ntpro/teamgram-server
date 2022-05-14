@@ -14,7 +14,7 @@ import (
 
 	"github.com/teamgram/marmota/pkg/stores/sqlc"
 	"github.com/teamgram/marmota/pkg/stores/sqlx"
-	"github.com/teamgram/teamgram-server/app/service/authsession/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/service/authsession/internal/config"
 
 	"github.com/oschwald/geoip2-golang"
 	"github.com/zeromicro/go-zero/core/stores/kv"

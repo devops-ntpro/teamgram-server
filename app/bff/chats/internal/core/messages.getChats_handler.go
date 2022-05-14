@@ -20,7 +20,7 @@ package core
 
 import (
 	"github.com/teamgram/proto/mtproto"
-	chatpb "github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
+	chatpb "github.com/devops-ntpro/teamgram-server/app/service/biz/chat/chat"
 )
 
 // MessagesGetChats

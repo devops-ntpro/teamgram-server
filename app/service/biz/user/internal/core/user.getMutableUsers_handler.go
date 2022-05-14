@@ -13,9 +13,9 @@ import (
 	"encoding/json"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/user/internal/dal/dataobject"
-	"github.com/teamgram/teamgram-server/app/service/biz/user/user"
-	"github.com/teamgram/teamgram-server/app/service/media/media"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/user/internal/dal/dataobject"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
+	"github.com/devops-ntpro/teamgram-server/app/service/media/media"
 )
 
 // UserGetMutableUsers

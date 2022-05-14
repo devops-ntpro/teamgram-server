@@ -15,7 +15,7 @@ import (
 	"github.com/teamgram/marmota/pkg/random2"
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/crypto"
-	"github.com/teamgram/teamgram-server/app/service/biz/code/code"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/code/code"
 )
 
 // CodeCreatePhoneCode

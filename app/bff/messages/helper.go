@@ -11,10 +11,10 @@
 package messages_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/bff/messages/internal/config"
-	"github.com/teamgram/teamgram-server/app/bff/messages/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/bff/messages/internal/svc"
-	"github.com/teamgram/teamgram-server/app/bff/messages/plugin"
+	"github.com/devops-ntpro/teamgram-server/app/bff/messages/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/bff/messages/internal/server/grpc/service"
+	"github.com/devops-ntpro/teamgram-server/app/bff/messages/internal/svc"
+	"github.com/devops-ntpro/teamgram-server/app/bff/messages/plugin"
 )
 
 type (
