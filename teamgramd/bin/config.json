@@ -1,10 +1,10 @@
 {
   "data2": {
     "predicate_name": "config",
-    "phonecalls_enabled": true,
-    "default_p2p_contacts": true,
+    "phonecalls_enabled": false,
+    "default_p2p_contacts": false,
     "preload_featured_stickers": false,
-    "ignore_phone_entities": false,
+    "ignore_phone_entities": true,
     "revoke_pm_inbox": true,
     "blocked_mode": false,
     "pfs_enabled": false,

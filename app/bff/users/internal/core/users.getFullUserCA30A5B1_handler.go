@@ -87,11 +87,11 @@ func (c *UsersCore) UsersGetFullUserCA30A5B1(in *mtproto.TLUsersGetFullUserCA30A
 	//	private_forward_name:flags.16?string = UserFull;
 	userFull := mtproto.MakeTLUserFull(&mtproto.UserFull{
 		Blocked:             false,
-		PhoneCallsAvailable: true,
+		PhoneCallsAvailable: false,
 		PhoneCallsPrivate:   false,
 		CanPinMessage:       true,
 		HasScheduled:        false,
-		VideoCallsAvailable: true,
+		VideoCallsAvailable: false,
 		Id:                  peerId,
 		About:               user.GetUser().GetAbout(),
 		Settings:            nil,
