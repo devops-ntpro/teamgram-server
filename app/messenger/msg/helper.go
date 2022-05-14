@@ -11,7 +11,7 @@
 package msg_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/messenger/msg/internal/server"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/internal/server"
 )
 
 var (

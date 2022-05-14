@@ -20,7 +20,7 @@ package core
 
 import (
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/msg/msg"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/msg"
 )
 
 // MsgDeleteChatHistory

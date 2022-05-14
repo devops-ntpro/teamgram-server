@@ -10,9 +10,9 @@
 package svc
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/config"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/dao"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/ffmpegutil"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/dao"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/ffmpegutil"
 )
 
 type ServiceContext struct {

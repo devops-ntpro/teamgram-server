@@ -11,12 +11,12 @@ package server
 
 import (
 	"flag"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/server/http"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/server/http"
 	"github.com/zeromicro/go-zero/rest"
 
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/config"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/server/grpc"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/svc"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/server/grpc"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/core/logx"

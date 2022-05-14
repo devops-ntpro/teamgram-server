@@ -26,9 +26,9 @@ import (
 	"math"
 	"sync"
 
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/ffmpegutil/goffmpeg/models"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/ffmpegutil/goffmpeg/transcoder"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/ffmpegutil/goffmpeg/utils"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/ffmpegutil/goffmpeg/models"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/ffmpegutil/goffmpeg/transcoder"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/ffmpegutil/goffmpeg/utils"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

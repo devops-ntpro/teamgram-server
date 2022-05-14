@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/chat/chat"
 )
 
 // ChatEditChatPhoto

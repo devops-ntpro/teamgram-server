@@ -9,9 +9,9 @@ package dao
 import (
 	"context"
 	"github.com/teamgram/proto/mtproto"
-	chatpb "github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
-	"github.com/teamgram/teamgram-server/app/service/biz/chat/internal/dal/dataobject"
-	"github.com/teamgram/teamgram-server/app/service/media/media"
+	chatpb "github.com/devops-ntpro/teamgram-server/app/service/biz/chat/chat"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/chat/internal/dal/dataobject"
+	"github.com/devops-ntpro/teamgram-server/app/service/media/media"
 	"github.com/zeromicro/go-zero/core/jsonx"
 )
 

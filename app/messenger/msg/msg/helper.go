@@ -11,10 +11,10 @@
 package msg_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/messenger/msg/msg/internal/config"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/msg/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/msg/internal/svc"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/msg/plugin"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/internal/server/grpc/service"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/internal/svc"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/plugin"
 )
 
 type (

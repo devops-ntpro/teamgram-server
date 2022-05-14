@@ -12,9 +12,9 @@ import (
 	"fmt"
 
 	kafka "github.com/teamgram/marmota/pkg/mq"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/internal/core"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/internal/svc"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/sync"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/internal/core"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/internal/svc"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/sync"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/zeromicro/go-zero/core/logx"

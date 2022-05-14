@@ -10,14 +10,14 @@
 package dao
 
 import (
-	inbox_client "github.com/teamgram/teamgram-server/app/messenger/msg/inbox/client"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/msg/plugin"
-	sync_client "github.com/teamgram/teamgram-server/app/messenger/sync/client"
-	// channel_client "github.com/teamgram/teamgram-server/app/service/biz/channel/client"
-	chat_client "github.com/teamgram/teamgram-server/app/service/biz/chat/client"
-	dialog_client "github.com/teamgram/teamgram-server/app/service/biz/dialog/client"
-	user_client "github.com/teamgram/teamgram-server/app/service/biz/user/client"
-	idgen_client "github.com/teamgram/teamgram-server/app/service/idgen/client"
+	inbox_client "github.com/devops-ntpro/teamgram-server/app/messenger/msg/inbox/client"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/plugin"
+	sync_client "github.com/devops-ntpro/teamgram-server/app/messenger/sync/client"
+	// channel_client "github.com/devops-ntpro/teamgram-server/app/service/biz/channel/client"
+	chat_client "github.com/devops-ntpro/teamgram-server/app/service/biz/chat/client"
+	dialog_client "github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/client"
+	user_client "github.com/devops-ntpro/teamgram-server/app/service/biz/user/client"
+	idgen_client "github.com/devops-ntpro/teamgram-server/app/service/idgen/client"
 
 	"github.com/zeromicro/go-zero/core/stores/kv"
 )

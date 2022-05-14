@@ -11,13 +11,13 @@ package core
 
 import (
 	"context"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/sync"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/sync"
 
 	"github.com/teamgram/proto/mtproto"
 	"github.com/teamgram/proto/mtproto/rpc/metadata"
-	"github.com/teamgram/teamgram-server/app/interface/session/session"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/internal/svc"
-	"github.com/teamgram/teamgram-server/app/service/status/status"
+	"github.com/devops-ntpro/teamgram-server/app/interface/session/session"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/internal/svc"
+	"github.com/devops-ntpro/teamgram-server/app/service/status/status"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

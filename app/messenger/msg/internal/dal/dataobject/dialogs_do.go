@@ -11,7 +11,7 @@
 package dataobject
 
 import (
-	dialog_helper "github.com/teamgram/teamgram-server/app/service/biz/dialog"
+	dialog_helper "github.com/devops-ntpro/teamgram-server/app/service/biz/dialog"
 )
 
 type (

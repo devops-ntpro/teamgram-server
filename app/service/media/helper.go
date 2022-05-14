@@ -11,7 +11,7 @@
 package media_helper
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/media/internal/server"
+	"github.com/devops-ntpro/teamgram-server/app/service/media/internal/server"
 )
 
 var (

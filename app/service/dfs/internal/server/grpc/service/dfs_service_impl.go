@@ -13,8 +13,8 @@ package service
 import (
 	"context"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/dfs/dfs"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/core"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/dfs"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/core"
 )
 
 // DfsWriteFilePartData

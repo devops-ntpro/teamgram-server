@@ -12,8 +12,8 @@ package core
 import (
 	"fmt"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/dfs/dfs"
-	"github.com/teamgram/teamgram-server/app/service/media/media"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/dfs"
+	"github.com/devops-ntpro/teamgram-server/app/service/media/media"
 )
 
 // MediaUploadEncryptedFile

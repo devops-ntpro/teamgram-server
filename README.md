@@ -35,7 +35,7 @@ Open source [mtproto](https://core.telegram.org/mtproto) server written in golan
 #### Install Teamgram
 - Get source code　
 ```
-git clone https://github.com/teamgram/teamgram-server.git
+git clone https://github.com/devops-ntpro/teamgram-server.git
 cd teamgram-server
 ```
 - grant permissions to access without password

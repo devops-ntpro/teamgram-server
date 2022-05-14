@@ -11,9 +11,9 @@ package dao
 
 import (
 	"github.com/minio/minio-go"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/config"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/minio_util"
-	idgen_client "github.com/teamgram/teamgram-server/app/service/idgen/client"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/minio_util"
+	idgen_client "github.com/devops-ntpro/teamgram-server/app/service/idgen/client"
 	"github.com/zeromicro/go-zero/core/stores/kv"
 	"github.com/zeromicro/go-zero/zrpc"
 )

@@ -14,7 +14,7 @@ import (
 	"context"
 
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/messenger/sync/sync"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/sync"
 
 	"github.com/zeromicro/go-zero/zrpc"
 )

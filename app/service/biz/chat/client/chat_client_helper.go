@@ -8,7 +8,7 @@ package chat_client
 
 import (
 	"context"
-	"github.com/teamgram/teamgram-server/app/service/biz/chat/chat"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/chat/chat"
 
 	"github.com/teamgram/proto/mtproto"
 	"github.com/zeromicro/go-zero/zrpc"

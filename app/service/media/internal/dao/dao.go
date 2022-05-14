@@ -12,8 +12,8 @@ package dao
 import (
 	"github.com/teamgram/marmota/pkg/stores/sqlc"
 	"github.com/teamgram/marmota/pkg/stores/sqlx"
-	dfs_client "github.com/teamgram/teamgram-server/app/service/dfs/client"
-	"github.com/teamgram/teamgram-server/app/service/media/internal/config"
+	dfs_client "github.com/devops-ntpro/teamgram-server/app/service/dfs/client"
+	"github.com/devops-ntpro/teamgram-server/app/service/media/internal/config"
 	"github.com/zeromicro/go-zero/zrpc"
 )
 

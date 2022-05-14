@@ -19,7 +19,7 @@
 package http
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/svc"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/svc"
 	"github.com/zeromicro/go-zero/rest"
 	"net/http"
 )

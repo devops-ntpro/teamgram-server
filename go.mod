@@ -1,4 +1,4 @@
-module github.com/teamgram/teamgram-server
+module github.com/devops-ntpro/teamgram-server
 
 go 1.17
 

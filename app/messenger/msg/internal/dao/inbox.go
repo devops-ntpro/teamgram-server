@@ -25,8 +25,8 @@ import (
 
 	"github.com/teamgram/marmota/pkg/stores/sqlx"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/inbox"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/internal/dal/dataobject"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/inbox/inbox"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/internal/dal/dataobject"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/zeromicro/go-zero/core/jsonx"

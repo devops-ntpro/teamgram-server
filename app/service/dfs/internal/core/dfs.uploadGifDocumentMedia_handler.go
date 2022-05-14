@@ -19,9 +19,9 @@ import (
 
 	"github.com/teamgram/marmota/pkg/bytes2"
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/dfs/dfs"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/imaging"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/model"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/dfs"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/imaging"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/model"
 )
 
 const (

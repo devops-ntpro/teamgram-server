@@ -14,8 +14,8 @@ import (
 	"fmt"
 	"github.com/teamgram/marmota/pkg/stores/sqlx"
 
-	"github.com/teamgram/teamgram-server/app/service/biz/username/internal/dal/dataobject"
-	"github.com/teamgram/teamgram-server/app/service/biz/username/username"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/username/internal/dal/dataobject"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/username/username"
 )
 
 // UsernameGetAccountUsername

@@ -10,7 +10,7 @@
 package core
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/biz/username/username"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/username/username"
 )
 
 // UsernameCheckUsername

@@ -110,7 +110,7 @@ cp ff* /usr/local/bin/
 
 ### Get source code 
 ```
-git clone https://github.com/teamgram/teamgram-server.git
+git clone https://github.com/devops-ntpro/teamgram-server.git
 cd teamgram-server
 ```
 

@@ -21,7 +21,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/teamgram/teamgram-server/pkg/mention"
+	"github.com/devops-ntpro/teamgram-server/pkg/mention"
 )
 
 var testRuneStr = []rune(`1) a b (@ababab)

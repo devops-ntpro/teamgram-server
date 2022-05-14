@@ -25,7 +25,7 @@ import (
 	"net/http"
 
 	"github.com/teamgram/marmota/pkg/hack"
-	"github.com/teamgram/teamgram-server/pkg/code/conf"
+	"github.com/devops-ntpro/teamgram-server/pkg/code/conf"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

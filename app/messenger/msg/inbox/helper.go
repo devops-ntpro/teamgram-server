@@ -12,9 +12,9 @@ package inbox_helper
 
 import (
 	kafka "github.com/teamgram/marmota/pkg/mq"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/internal/config"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/internal/server/mq"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/internal/svc"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/inbox/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/inbox/internal/server/mq"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/inbox/internal/svc"
 )
 
 type (

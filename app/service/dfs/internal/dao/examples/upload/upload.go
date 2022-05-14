@@ -24,9 +24,9 @@ import (
 	"os"
 
 	"github.com/teamgram/marmota/pkg/commands"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/config"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/dao"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/model"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/config"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/dao"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/model"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

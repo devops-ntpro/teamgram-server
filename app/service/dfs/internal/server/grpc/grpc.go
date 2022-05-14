@@ -10,9 +10,9 @@
 package grpc
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/dfs/dfs"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/svc"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/dfs"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/server/grpc/service"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/zrpc"

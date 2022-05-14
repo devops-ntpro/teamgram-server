@@ -11,8 +11,8 @@ package core
 
 import (
 	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/teamgram-server/app/service/biz/username/internal/dal/dataobject"
-	"github.com/teamgram/teamgram-server/app/service/biz/username/username"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/username/internal/dal/dataobject"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/username/username"
 )
 
 // UsernameGetListByUsernameList

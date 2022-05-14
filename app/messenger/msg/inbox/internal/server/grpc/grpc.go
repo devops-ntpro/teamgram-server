@@ -10,9 +10,9 @@
 package grpc
 
 import (
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/inbox"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/internal/server/grpc/service"
-	"github.com/teamgram/teamgram-server/app/messenger/msg/inbox/internal/svc"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/inbox/inbox"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/inbox/internal/server/grpc/service"
+	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/inbox/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/logx"
 	"github.com/zeromicro/go-zero/zrpc"

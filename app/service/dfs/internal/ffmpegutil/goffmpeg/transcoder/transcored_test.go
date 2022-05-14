@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/ffmpegutil/goffmpeg/models"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/ffmpegutil/goffmpeg/models"
 )
 
 func TestTranscoder(t *testing.T) {

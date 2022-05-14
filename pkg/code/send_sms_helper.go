@@ -21,8 +21,8 @@ package code
 import (
 	"context"
 
-	"github.com/teamgram/teamgram-server/pkg/code/conf"
-	"github.com/teamgram/teamgram-server/pkg/code/none"
+	"github.com/devops-ntpro/teamgram-server/pkg/code/conf"
+	"github.com/devops-ntpro/teamgram-server/pkg/code/none"
 )
 
 type VerifyCodeInterface interface {

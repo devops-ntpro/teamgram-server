@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/ffmpegutil/goffmpeg/utils"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/ffmpegutil/goffmpeg/utils"
 )
 
 // Configuration ...

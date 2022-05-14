@@ -15,8 +15,8 @@ import (
 	"github.com/zeromicro/go-zero/core/logx"
 
 	"github.com/teamgram/proto/mtproto/rpc/metadata"
-	"github.com/teamgram/teamgram-server/app/service/biz/username/internal/svc"
-	"github.com/teamgram/teamgram-server/app/service/biz/username/username"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/username/internal/svc"
+	"github.com/devops-ntpro/teamgram-server/app/service/biz/username/username"
 )
 
 var (

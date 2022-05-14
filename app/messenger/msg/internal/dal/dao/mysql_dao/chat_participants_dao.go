@@ -11,7 +11,7 @@
 package mysql_dao
 
 import (
-	chat_helper "github.com/teamgram/teamgram-server/app/service/biz/chat"
+	chat_helper "github.com/devops-ntpro/teamgram-server/app/service/biz/chat"
 )
 
 type (

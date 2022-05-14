@@ -10,7 +10,7 @@
 package core
 
 import (
-	"github.com/teamgram/teamgram-server/app/service/media/media"
+	"github.com/devops-ntpro/teamgram-server/app/service/media/media"
 )
 
 // MediaGetDocumentList

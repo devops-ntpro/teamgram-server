@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/teamgram/teamgram-server/app/service/dfs/internal/ffmpegutil/goffmpeg/transcoder"
+	"github.com/devops-ntpro/teamgram-server/app/service/dfs/internal/ffmpegutil/goffmpeg/transcoder"
 )
 
 func TestInputNotFound(t *testing.T) {
