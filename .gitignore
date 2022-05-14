@@ -40,6 +40,7 @@ Thumbs.db
 /teamgramd/bin/gateway
 /teamgramd/bin/idgen
 /teamgramd/bin/media
+/teamgramd/bin/ntproxy
 /teamgramd/bin/poll
 /teamgramd/bin/push
 /teamgramd/bin/scheduled

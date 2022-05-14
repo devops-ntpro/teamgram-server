@@ -7,11 +7,9 @@ import (
 	"github.com/teamgram/marmota/pkg/commands"
 	"github.com/devops-ntpro/teamgram-server/app/interface/ntproxy/internal/config"
 	"github.com/devops-ntpro/teamgram-server/app/interface/ntproxy/internal/server"
-	"github.com/devops-ntpro/teamgram-server/app/interface/ntproxy/internal/server/grpc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/zrpc"
 )
 
 var (

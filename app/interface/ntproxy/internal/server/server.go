@@ -19,16 +19,10 @@
 package server
 
 import (
-	"context"
-	"fmt"
-	"github.com/teamgram/marmota/pkg/net2"
+	//	"net"
 	"github.com/teamgram/marmota/pkg/timer2"
-	"github.com/teamgram/proto/mtproto"
-	sessionpb "github.com/devops-ntpro/teamgram-server/app/interface/session/session"
-	"github.com/zeromicro/go-zero/core/logx"
-	"strconv"
-
-	"github.com/teamgram/marmota/pkg/cache"
+	//	"github.com/zeromicro/go-zero/core/logx"
+	
 	"github.com/devops-ntpro/teamgram-server/app/interface/ntproxy/internal/config"
 )
 
@@ -39,13 +33,11 @@ var (
 
 type Server struct {
 	c      *config.Config
-	server *net2.TcpServer2
 	timer          *timer2.Timer // 32 * 2048
 }
 
 func New(c config.Config) *Server {
 	var (
-		err error
 		s   = new(Server)
 	)
 
@@ -54,22 +46,11 @@ func New(c config.Config) *Server {
 	return s
 }
 
-func (s *Server) Close() {
-	s.server.Stop()
-}
-
-// Ping ping the resource.
-func (s *Server) Ping(ctx context.Context) (err error) {
+func (_ *Server) Serve() error {
+	
 	return nil
 }
 
-func (s *Server) Serve() error {
-	serv, err := net2.NewTcpServer2(s.c.Server, s.c.MaxProc, s)
-	if err != nil {
-		panic(err)
-	}
-	s.server = serv
-	s.server.Serve()
-
-	return nil
+func (_ *Server) Close() {
+	
 }

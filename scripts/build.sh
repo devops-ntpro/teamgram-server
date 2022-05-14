@@ -47,8 +47,8 @@ go build -o ${INSTALL}/bin/session
 echo "build gateway ..."
 cd ${TEAMGRAMAPP}/interface/gateway/cmd/gateway
 go build -o ${INSTALL}/bin/gateway
-#
-#echo "build ntproxy ..."
-#cd ${TEAMGRAMAPP}/interface/ntproxy/cmd/ntproxy
-#go build -o ${INSTALL}/bin/ntproxy
+
+echo "build ntproxy ..."
+cd ${TEAMGRAMAPP}/interface/ntproxy/cmd/ntproxy
+go build -o ${INSTALL}/bin/ntproxy
  
