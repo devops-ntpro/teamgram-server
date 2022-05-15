@@ -1,0 +1,28 @@
+Name: interface.ntproxy
+ListenOn: 127.0.0.1:20130
+Etcd:
+  Hosts:
+    - 127.0.0.1:2379
+  Key: interface.ntproxy
+Log:
+  Mode: file
+  Path: ../logs/ntproxy
+MaxProc: 4
+Server:
+  Addrs:
+    - 0.0.0.0:11443
+  ProtoName: netgate
+  ServerName: interface.ntproxy
+  SendBuf: 65536
+  ReceiveBuf: 65536
+  Keepalive: false
+  SendChanSize: 1024
+Client:
+  Name: interface.ntproxy
+  AddrList:
+    - 127.0.0.1:10443
+  EtcdAddrs:
+    - 0.0.0.0:0
+  ProtoName: mtproto
+  Balancer: a
+

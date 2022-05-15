@@ -21,7 +21,7 @@ package server
 import (
 	//	"net"
 	"github.com/teamgram/marmota/pkg/timer2"
-	//	"github.com/zeromicro/go-zero/core/logx"
+	"github.com/zeromicro/go-zero/core/logx"
 	
 	"github.com/devops-ntpro/teamgram-server/app/interface/ntproxy/internal/config"
 )
@@ -42,15 +42,17 @@ func New(c config.Config) *Server {
 	)
 
 	s.timer = timer2.NewTimer(1024)
+	logx.Infof("New: %v", c)
 
 	return s
 }
 
 func (_ *Server) Serve() error {
-	
+
+	logx.Infof("Serve")
 	return nil
 }
 
 func (_ *Server) Close() {
-	
+	logx.Infof("Close")
 }
