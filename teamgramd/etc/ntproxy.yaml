@@ -8,6 +8,7 @@ Log:
   Mode: file
   Path: ../logs/ntproxy
 MaxProc: 4
+ServiceId: 10001
 Server:
   Addrs:
     - 0.0.0.0:11443

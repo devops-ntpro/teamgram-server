@@ -6,6 +6,7 @@ import (
 
 type Config struct {
 	MaxProc        int
+	ServiceId      int
 	Server         *net2.TcpServerConfig
 	Client         *net2.ClientConfig
 }
