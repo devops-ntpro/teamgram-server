@@ -13,7 +13,7 @@ package chat
 import (
 	"reflect"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 )
 
 var _ *mtproto.Bool

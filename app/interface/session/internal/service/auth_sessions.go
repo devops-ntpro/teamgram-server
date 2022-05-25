@@ -29,8 +29,8 @@ import (
 
 	"github.com/teamgram/marmota/pkg/queue2"
 	"github.com/teamgram/marmota/pkg/sync2"
-	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/proto/mtproto/rpc/metadata"
+	"github.com/devops-ntpro/mtproto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto/rpc/metadata"
 	"github.com/devops-ntpro/teamgram-server/app/service/authsession/authsession"
 	"github.com/devops-ntpro/teamgram-server/app/service/status/status"
 

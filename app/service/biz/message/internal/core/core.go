@@ -20,7 +20,7 @@ package core
 
 import (
 	"context"
-	"github.com/teamgram/proto/mtproto/rpc/metadata"
+	"github.com/devops-ntpro/mtproto/mtproto/rpc/metadata"
 	"github.com/devops-ntpro/teamgram-server/app/service/biz/message/internal/svc"
 	"github.com/zeromicro/go-zero/core/logx"
 )

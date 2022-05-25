@@ -13,7 +13,7 @@ package media_client
 import (
 	"context"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/service/media/media"
 
 	"github.com/zeromicro/go-zero/zrpc"

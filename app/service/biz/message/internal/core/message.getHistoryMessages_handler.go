@@ -12,7 +12,7 @@ package core
 import (
 	"math"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/service/biz/message/message"
 )
 

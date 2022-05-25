@@ -13,7 +13,7 @@ package user_client
 import (
 	"context"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
 
 	"github.com/zeromicro/go-zero/zrpc"

@@ -21,8 +21,8 @@ package core
 import (
 	"context"
 
-	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/proto/mtproto/rpc/metadata"
+	"github.com/devops-ntpro/mtproto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto/rpc/metadata"
 	"github.com/devops-ntpro/teamgram-server/app/bff/dialogs/internal/svc"
 	chatpb "github.com/devops-ntpro/teamgram-server/app/service/biz/chat/chat"
 	"github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/dialog"

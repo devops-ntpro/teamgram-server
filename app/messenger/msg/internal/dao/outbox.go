@@ -30,7 +30,7 @@ import (
 
 	"github.com/teamgram/marmota/pkg/hack"
 	"github.com/teamgram/marmota/pkg/stores/sqlx"
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/internal/dal/dataobject"
 	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/msg"
 )

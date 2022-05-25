@@ -24,7 +24,7 @@ import (
 	"github.com/teamgram/marmota/pkg/net/ip"
 	"sync"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/interface/session/internal/config"
 	"github.com/devops-ntpro/teamgram-server/app/interface/session/internal/dao"
 

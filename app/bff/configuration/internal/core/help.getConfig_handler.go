@@ -20,7 +20,7 @@ package core
 
 import (
 	"github.com/gogo/protobuf/proto"
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/zeromicro/go-zero/core/jsonx"
 	"io/ioutil"
 	"time"

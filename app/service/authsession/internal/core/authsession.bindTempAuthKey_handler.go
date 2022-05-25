@@ -13,8 +13,8 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/proto/mtproto/crypto"
+	"github.com/devops-ntpro/mtproto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto/crypto"
 	"github.com/devops-ntpro/teamgram-server/app/service/authsession/authsession"
 )
 

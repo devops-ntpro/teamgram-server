@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"github.com/teamgram/marmota/pkg/random2"
-	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/proto/mtproto/crypto"
+	"github.com/devops-ntpro/mtproto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto/crypto"
 	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/internal/model"
 
 	"github.com/zeromicro/go-zero/core/logx"

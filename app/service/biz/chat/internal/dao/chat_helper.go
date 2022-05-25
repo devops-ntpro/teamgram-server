@@ -8,7 +8,7 @@ package dao
 
 import (
 	"context"
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	chatpb "github.com/devops-ntpro/teamgram-server/app/service/biz/chat/chat"
 	"github.com/devops-ntpro/teamgram-server/app/service/biz/chat/internal/dal/dataobject"
 	"github.com/devops-ntpro/teamgram-server/app/service/media/media"

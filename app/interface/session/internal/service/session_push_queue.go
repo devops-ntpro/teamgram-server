@@ -21,7 +21,7 @@ package service
 import (
 	"container/list"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

@@ -7,7 +7,7 @@
 package core
 
 import (
-	"github.com/teamgram/proto/mtproto/rpc/metadata"
+	"github.com/devops-ntpro/mtproto/mtproto/rpc/metadata"
 	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/sync"
 	"github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/dialog"
 	"math/rand"
@@ -15,7 +15,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	userpb "github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
 	"github.com/devops-ntpro/teamgram-server/app/service/biz/username/username"
 	mediapb "github.com/devops-ntpro/teamgram-server/app/service/media/media"

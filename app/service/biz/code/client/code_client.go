@@ -13,7 +13,7 @@ package code_client
 import (
 	"context"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/service/biz/code/code"
 
 	"github.com/zeromicro/go-zero/zrpc"

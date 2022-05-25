@@ -19,7 +19,7 @@
 package core
 
 import (
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	userpb "github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
 	mediapb "github.com/devops-ntpro/teamgram-server/app/service/media/media"
 	"github.com/devops-ntpro/teamgram-server/pkg/phonenumber"

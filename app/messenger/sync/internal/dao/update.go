@@ -11,7 +11,7 @@ import (
 	"github.com/zeromicro/go-zero/core/jsonx"
 	"time"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/internal/dal/dataobject"
 )
 

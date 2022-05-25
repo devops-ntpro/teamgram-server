@@ -22,7 +22,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/internal/dao"
 	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/internal/model"
 	"github.com/devops-ntpro/teamgram-server/pkg/code"

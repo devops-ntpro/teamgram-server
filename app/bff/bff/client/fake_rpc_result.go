@@ -7,8 +7,8 @@
 package bff_proxy_client
 
 import (
-	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/proto/mtproto/crypto"
+	"github.com/devops-ntpro/mtproto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto/crypto"
 	"github.com/zeromicro/go-zero/core/logx"
 	"reflect"
 	"time"

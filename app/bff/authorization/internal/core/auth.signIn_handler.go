@@ -19,8 +19,8 @@
 package core
 
 import (
-	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/proto/mtproto/crypto"
+	"github.com/devops-ntpro/mtproto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto/crypto"
 	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/internal/logic"
 	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/internal/model"
 	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/sync"

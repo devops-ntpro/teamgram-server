@@ -20,7 +20,7 @@ package logic
 
 import (
 	"github.com/gogo/protobuf/proto"
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 )
 
 const (

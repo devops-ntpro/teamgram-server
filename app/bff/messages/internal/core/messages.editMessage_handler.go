@@ -20,7 +20,7 @@ package core
 
 import (
 	"github.com/gogo/protobuf/types"
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	msgpb "github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/msg"
 	"github.com/devops-ntpro/teamgram-server/app/service/biz/message/message"
 	"time"

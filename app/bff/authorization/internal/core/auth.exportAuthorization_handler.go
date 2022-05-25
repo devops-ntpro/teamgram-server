@@ -22,7 +22,7 @@ import (
 	"strconv"
 
 	"github.com/teamgram/marmota/pkg/hack"
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 )
 
 // AuthExportAuthorization

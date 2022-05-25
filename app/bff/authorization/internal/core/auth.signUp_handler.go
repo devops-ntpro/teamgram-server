@@ -22,8 +22,8 @@ import (
 	"context"
 	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/internal/logic"
 
-	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/proto/mtproto/crypto"
+	"github.com/devops-ntpro/mtproto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto/crypto"
 	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/internal/model"
 	"github.com/devops-ntpro/teamgram-server/app/service/authsession/authsession"
 	userpb "github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"

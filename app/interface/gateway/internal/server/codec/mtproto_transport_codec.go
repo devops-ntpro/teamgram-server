@@ -28,7 +28,7 @@ import (
 	"net"
 
 	"github.com/teamgram/marmota/pkg/net2"
-	"github.com/teamgram/proto/mtproto/crypto"
+	"github.com/devops-ntpro/mtproto/mtproto/crypto"
 
 	log "github.com/zeromicro/go-zero/core/logx"
 )

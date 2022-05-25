@@ -13,7 +13,7 @@ package msg_client
 import (
 	"context"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/msg"
 
 	"github.com/zeromicro/go-zero/zrpc"

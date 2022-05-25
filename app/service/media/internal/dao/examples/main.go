@@ -11,7 +11,7 @@ import (
 	"flag"
 	"fmt"
 	"github.com/teamgram/marmota/pkg/stores/sqlx"
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/service/media/internal/config"
 	"github.com/devops-ntpro/teamgram-server/app/service/media/internal/svc"
 	"github.com/zeromicro/go-zero/core/conf"

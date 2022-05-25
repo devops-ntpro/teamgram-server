@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 
 	log "github.com/zeromicro/go-zero/core/logx"
 )

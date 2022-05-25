@@ -12,7 +12,7 @@ package core
 import (
 	"github.com/teamgram/marmota/pkg/container2"
 	"github.com/teamgram/marmota/pkg/stores/sqlx"
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
 )
 

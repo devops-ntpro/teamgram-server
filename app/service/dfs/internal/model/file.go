@@ -19,7 +19,7 @@
 package model
 
 import (
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 )
 
 // upload.saveFilePart#b304a621 file_id:long file_part:int bytes:bytes = Bool;

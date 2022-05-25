@@ -21,7 +21,7 @@ package core
 import (
 	"time"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/sync"
 	userpb "github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
 	mediapb "github.com/devops-ntpro/teamgram-server/app/service/media/media"

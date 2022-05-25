@@ -13,7 +13,7 @@ package service
 import (
 	"context"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/service/idgen/idgen"
 	"github.com/devops-ntpro/teamgram-server/app/service/idgen/internal/core"
 )

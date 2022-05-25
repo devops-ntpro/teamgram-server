@@ -8,7 +8,7 @@ package dao
 
 import (
 	"context"
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/service/biz/message/internal/dal/dataobject"
 	// pollpb "github.com/devops-ntpro/teamgram-server/app/service/poll/poll"
 	"github.com/zeromicro/go-zero/core/jsonx"

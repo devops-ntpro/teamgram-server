@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 )
 
 const mapNum = 8

@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/service/media/internal/dal/dataobject"
 
 	"github.com/zeromicro/go-zero/core/jsonx"

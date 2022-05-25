@@ -11,7 +11,7 @@ package core
 
 import (
 	// "github.com/teamgram/marmota/pkg/container2"
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/sync"
 	// channelpb "github.com/devops-ntpro/teamgram-server/app/service/biz/channel/channel"
 	chatpb "github.com/devops-ntpro/teamgram-server/app/service/biz/chat/chat"

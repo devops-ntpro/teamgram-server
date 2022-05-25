@@ -21,7 +21,7 @@ package server
 import (
 	"strconv"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 )
 
 func (s *Server) GetAuthKey(authKeyId int64) *mtproto.AuthKeyInfo {

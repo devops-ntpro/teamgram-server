@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"github.com/teamgram/marmota/pkg/net2"
 	"github.com/teamgram/marmota/pkg/timer2"
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	sessionpb "github.com/devops-ntpro/teamgram-server/app/interface/session/session"
 	"github.com/zeromicro/go-zero/core/logx"
 	"strconv"

@@ -11,8 +11,8 @@ package dao
 
 import (
 	"github.com/teamgram/marmota/pkg/cache"
-	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/proto/mtproto/rpc/metadata"
+	"github.com/devops-ntpro/mtproto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto/rpc/metadata"
 	bff_proxy_client "github.com/devops-ntpro/teamgram-server/app/bff/bff/client"
 	"github.com/devops-ntpro/teamgram-server/app/interface/session/internal/config"
 	authsession_client "github.com/devops-ntpro/teamgram-server/app/service/authsession/client"

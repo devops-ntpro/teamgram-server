@@ -101,7 +101,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 )
 
 func (d *Dao) getOrNotInsertSaltList(ctx context.Context, keyId int64, size int32) ([]*mtproto.TLFutureSalt, error) {

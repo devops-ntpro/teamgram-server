@@ -19,7 +19,7 @@
 package core
 
 import (
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	msgpb "github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/msg"
 	userpb "github.com/devops-ntpro/teamgram-server/app/service/biz/user/user"
 	"time"

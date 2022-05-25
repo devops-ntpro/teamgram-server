@@ -20,7 +20,7 @@ package server
 
 import (
 	"flag"
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	account_helper "github.com/devops-ntpro/teamgram-server/app/bff/account"
 	authorization_helper "github.com/devops-ntpro/teamgram-server/app/bff/authorization"
 	autodownload_helper "github.com/devops-ntpro/teamgram-server/app/bff/autodownload"

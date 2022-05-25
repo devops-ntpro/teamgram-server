@@ -10,7 +10,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 )
 
 var (

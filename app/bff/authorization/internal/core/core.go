@@ -24,8 +24,8 @@ import (
 	//"math/rand"
 	//"time"
 
-	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/proto/mtproto/rpc/metadata"
+	"github.com/devops-ntpro/mtproto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto/rpc/metadata"
 	"github.com/devops-ntpro/teamgram-server/app/bff/authorization/internal/svc"
 	//msgpb "github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/msg"
 	//"github.com/devops-ntpro/teamgram-server/pkg/env2"

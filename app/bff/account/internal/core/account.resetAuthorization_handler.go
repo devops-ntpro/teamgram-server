@@ -19,7 +19,7 @@
 package core
 
 import (
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/sync"
 	"github.com/devops-ntpro/teamgram-server/app/service/authsession/authsession"
 )

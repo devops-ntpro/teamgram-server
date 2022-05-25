@@ -11,14 +11,14 @@ package core
 
 import (
 	"context"
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/dialog"
 	"github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/internal/dal/dataobject"
 	"github.com/zeromicro/go-zero/core/jsonx"
 
 	"github.com/zeromicro/go-zero/core/logx"
 
-	"github.com/teamgram/proto/mtproto/rpc/metadata"
+	"github.com/devops-ntpro/mtproto/mtproto/rpc/metadata"
 	"github.com/devops-ntpro/teamgram-server/app/service/biz/dialog/internal/svc"
 )
 

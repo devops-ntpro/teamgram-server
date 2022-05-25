@@ -21,7 +21,7 @@ package plugin
 import (
 	"context"
 
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 )
 
 type ContactsPlugin interface {

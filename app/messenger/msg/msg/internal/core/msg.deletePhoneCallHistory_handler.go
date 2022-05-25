@@ -10,7 +10,7 @@
 package core
 
 import (
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/inbox/inbox"
 	"github.com/devops-ntpro/teamgram-server/app/messenger/msg/msg/msg"
 	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/sync"

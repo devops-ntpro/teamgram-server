@@ -11,7 +11,7 @@
 package grpc
 
 import (
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/bff/notification/internal/server/grpc/service"
 	"github.com/devops-ntpro/teamgram-server/app/bff/notification/internal/svc"
 

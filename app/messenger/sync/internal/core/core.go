@@ -13,8 +13,8 @@ import (
 	"context"
 	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/sync"
 
-	"github.com/teamgram/proto/mtproto"
-	"github.com/teamgram/proto/mtproto/rpc/metadata"
+	"github.com/devops-ntpro/mtproto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto/rpc/metadata"
 	"github.com/devops-ntpro/teamgram-server/app/interface/session/session"
 	"github.com/devops-ntpro/teamgram-server/app/messenger/sync/internal/svc"
 	"github.com/devops-ntpro/teamgram-server/app/service/status/status"

@@ -20,7 +20,7 @@ package service
 
 import (
 	"context"
-	"github.com/teamgram/proto/mtproto"
+	"github.com/devops-ntpro/mtproto/mtproto"
 	"github.com/devops-ntpro/teamgram-server/app/interface/gateway/client"
 	"github.com/devops-ntpro/teamgram-server/app/interface/gateway/gateway"
 	"github.com/zeromicro/go-zero/zrpc"
